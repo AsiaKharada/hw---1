@@ -33,9 +33,39 @@ let b = 3;
 alert(Number(a) + Number(b));
 
 // Task 5
- let monthNumber = 12;
- if( monthNumber < 13){
-    alert("Верно");
- } else{
-    alert("Неверно");
- }
+function getSeason(monthNumber) {
+    if (monthNumber < 1 || monthNumber > 12) {
+        return "Ошибка: введите число от 1 до 12.";
+    }
+
+    let season;
+    switch (monthNumber) {
+        case 12:
+        case 1:
+        case 2:
+            season = "зима";
+            break;
+        case 3:
+        case 4:
+        case 5:
+            season = "весна";
+            break;
+        case 6:
+        case 7:
+        case 8:
+            season = "лето";
+            break;
+        case 9:
+        case 10:
+        case 11:
+            season = "осень";
+            break;
+        default:
+            season = "Неизвестный месяц"; // Этот случай никогда не выполнится из-за проверки в начале
+    }
+
+    return `Месяц номер ${monthNumber} относится к сезону: ${season}`;
+}
+
+let monthNumber = 12;
+console.log(getSeason(monthNumber));
