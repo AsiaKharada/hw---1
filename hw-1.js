@@ -25,7 +25,7 @@ alert(w ** 5)
 // Task 6 
 a = 9
 b = 2
-alert(a + b)
+alert(a % b)
 
 // Task 7 
 let num = 1;
