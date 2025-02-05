@@ -80,8 +80,8 @@
 
 
 .line{
-  padding-top: 114px;
-  display: none;
+  position: absolute;
+  bottom: 0px;
 }
 
 .scroll{
@@ -95,7 +95,7 @@
    overflow-y: hidden;
    -ms-overflow-style: none;
    white-space: nowrap;
-   width: 159%;
+   width: 75%;
    background: #BCEC30;
   display: flex;
   margin-left: -352px;
@@ -110,25 +110,40 @@
 
 }
 
+.content{
+  position: absolute;
+  top: 195px;
+}
+
 .igra2{
-    display: flex;
-    margin-left: -10px;
+  position: absolute;
+  top: 94px;
+  left: 63px;
   }
+  
 .igra1{
-    margin-left: 86px;
-    margin-top: 69px;
+  position: absolute;
+  top: 63px;
+  left: 146px;
       }
+
 .igra3{
-    margin-left: 900px;
-    margin-top: -31px;
+    position: absolute;
+    bottom: 122px;
+    right: 325px;
 }
+
 .igra4{
-    margin-left: 563px;
+   position: absolute;
+   bottom: 195px;
+   right: 435px;
 }
+
 .igra5{
 position: absolute;
 margin-left: 969px;
 transform: rotate(0.77deg);
+right: 0px;
 }
 
 .for-box{
@@ -179,9 +194,8 @@ margin-left: 31px;
   width: 584.72px;
   height: 584.72px;
   top: 841.92px;
-  border: 1px 0px 0px 0px; 
   position: absolute;
-  margin-left: 975px;
+  right: 0px;
 }
 
 .box-ru{
@@ -191,25 +205,18 @@ margin-left: 31px;
 .star1{
   width: 31.34px;
   height: 31.34px;
-  top: 1570px;
-  rotate: -5.45 deg;
+  top: 1476px;
   position: absolute;
-  margin-left: -102px;
-  margin-top: -224px;
+  left: 39px;
 }
 
 .star2{
   width: 54.6px;
   height: 54.6px;
-  top: 1622px;
+  top: 1528px;
   left: 45.18px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  rotate: -5.45 deg;
   position: absolute;  
-  margin-top: -232px;
-  margin-left: 247px;
+
 }
 
 .cart1{
@@ -348,9 +355,9 @@ margin-top: 16px;
 margin-bottom: 20px;
       } 
       .cart-box{
-        margin-left: 40px;
+        margin-left: 19px;
         margin-top: 12px;
-        gap: 25px;
+        gap: 21px;
         display: flex;
     flex-wrap: wrap;
     width: 1197px;
@@ -364,7 +371,7 @@ margin-bottom: 20px;
         line-height: 78.02px;
         text-align: left;
         color: rgb(255, 255, 255);    
-        margin-left: 394px;
+        margin-left: 135px;
       }
 
       .play{
@@ -389,6 +396,29 @@ margin-bottom: 20px;
          font-family: Montserrat;
          border: 1px solid #202027;
       }
+
+      .play1{
+        width: 212px;
+        height: 35px;
+        padding: 16px 28px 16px 28px;
+        border-radius: 60px 60px 60px 60px;
+        background-color: #202027;
+        border-color: #202027;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34.01px;
+        text-align: center;
+        display: inline-block;
+      }
+      .play1:hover{
+         background-color: #fff;
+         color: #202027;
+         font-family: Montserrat;
+         border: 1px solid #202027;
+      }
+            
 
       .game{
          border-radius: 30px 30px 30px 30px;
@@ -422,25 +452,11 @@ margin-bottom: 20px;
         margin-left: 82px;
       }
 
-      .pole1{
-        margin-top: -418px;
-        width: 544px;
-        height: 295px;
-        margin-left: 664px;
-      }
-
-      .pole3{
-        margin-top: -418px;
-        width: 493px;
-        height: 344px;
-        margin-left: 64px;
-      }
-
       .pole4{
-        margin-top: -451px;
         width: 515px;
         height: 344px;
-        margin-left: 636px;
+        margin-top: -430px;
+        margin-left: 667px;
       }
 
       .title-game{
@@ -480,9 +496,7 @@ margin-bottom: 20px;
       }
 
       .rules{
-        width: 1919px;
         height: 150px;
-        top: 5770px;
         background-color: #BCEC30;        
       }
 
@@ -496,27 +510,33 @@ margin-bottom: 20px;
         color: black;
       }
 
+       .cart-game{
+        position: absolute;
+        right: 119px;
+       }
+
       .star-end1{
         position: absolute;
-        margin-left: 1544px;
-        margin-top: -48px;
+        right: 122px;
+        top: 2228px;
       }
 
       .star-end2{
         position: absolute;
-        margin-left: 1574px;
-        margin-top: -21px;
+        right: 42px;
+        top: 2249px;
       }
 
       .star-end3{
          position: absolute;
-         margin-left: 1604px;
+        right: 63px;
+        top: 5425px;
       }
 
       .star-end4{
         position: absolute;
-        margin-left: 1547px;
-        margin-top: 55px;
+        right: 151px;
+        top: 5481px;
       }
 
       .emoji{

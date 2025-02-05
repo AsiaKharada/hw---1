@@ -1,0 +1,213 @@
+@media (max-width: 767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+.for-box{
+    display: none;
+}
+
+.box-igra1{
+    display: none;
+}
+
+.box-igra2{
+    display: none;
+}
+
+.igra5{
+    display: none;
+}
+
+.line{
+    display: none;
+}
+
+.content{
+    left: 50px;
+}
+
+.text1{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 262px;    
+}
+
+.block{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 292px;
+}
+
+.top-content{
+    width: 386px;
+}
+
+.button2{
+    width: 285px;
+    height: 55px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 60px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.67px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.protection{
+    display: flex;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.game1{
+    width: 273.7px; 
+    height: 410px;
+    padding: 29.04px 29.04px 32.67px 29.04px;
+    border-radius: 27.22px;   
+    position: relative;
+    left: 75px; 
+}
+
+.game-img1{
+    width: 328.93px;
+    height: 325px;
+    border-radius: 30px 0px 0px 0px;  
+    position: relative;
+    right: 618px;
+    bottom: 74px;
+}
+
+.game-img2{
+    width: 328.93px;
+    height: 325px;
+    border-radius: 30px 0px 0px 0px;  
+    position: relative;
+    right: 29px;
+    top: -74px;  
+}
+
+.mini-game{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    right: 73px;
+}
+
+.cart-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.title-game{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    right: 97px;
+    top: 294px;
+    height: 71px;
+    width: 186px;
+}
+
+.title-game1{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    right: 661px;
+    top: 333px;
+    height: 71px;
+    width: 186px;
+}
+
+.describe{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    right: 95px;
+    top: 278px;
+    width: 278px;
+}
+
+.describe1{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    right: 661px;
+    top: 327px;
+    width: 278px;
+}
+
+.play{
+    width: 218px;
+    height: 29px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 60px;
+    position: relative;
+    top: 281px;
+    right: 101px;
+}
+
+.play1{
+    width: 218px;
+    height: 29px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 60px;
+    position: relative;
+    top: 321px;
+    right: 665px;
+}
+
+.pole{
+    position: relative;
+    top: 26px;
+    left: 19px;
+}
+
+.pole4{
+    position: relative;
+
+}
+
+}
