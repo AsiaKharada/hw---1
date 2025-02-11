@@ -1,0 +1,575 @@
+@media(max-width: 1440px){
+
+  .center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+
+  .top {
+    height: 816px;
+    background-image: url(img/igra1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .text1{
+    font-family: Montserrat;
+    color: rgb(32, 32, 39);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 31px;
+    width: 816px;
+    padding-bottom: 30px;
+  }
+  .block{
+
+    color: rgb(32, 32, 39);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+   font-family: Montserrat;
+   margin-left: 33px;
+   width: 695px;
+  }
+  .button2{
+  background: rgb(0, 0, 0);
+  text-align: center;
+  border: 1px solid #202027;
+  box-sizing: border-box;
+  border-radius: 60px;
+  margin-top: 18px;
+  height: 55px;
+  width: 247px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 5px;
+  font-family: Montserrat;
+  font-size: 24px;
+  margin-left: 32px;
+  margin-top: 48px;
+  display: inline-block;
+  }
+
+  .button2:hover{
+    background: white;
+    text-align: center;
+    border: 1px solid #202027;
+    color: black;
+  }
+
+
+.line{
+  position: absolute;
+  bottom: 0px;
+  display: none;
+}
+
+.scroll{
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  text-align: left;
+   overflow-x: auto;
+   overflow-y: hidden;
+   -ms-overflow-style: none;
+   white-space: nowrap;
+   width: 75%;
+   background: #BCEC30;
+  display: flex;
+  margin-left: -352px;
+  height: 47px;
+  gap: 35px;
+  padding-top: 17px;
+}
+
+.stars{
+  width: 36px;
+  height: 36px;  
+
+}
+
+.content{
+  position: absolute;
+  top: 195px;
+}
+
+.igra2{
+  position: absolute;
+  top: 94px;
+  left: 63px;
+  }
+  
+.igra1{
+  position: absolute;
+  top: 63px;
+  left: 146px;
+      }
+
+.igra3{
+    position: absolute;
+    bottom: 122px;
+    right: 325px;
+}
+
+.igra4{
+   position: absolute;
+   bottom: 195px;
+   right: 435px;
+}
+
+.igra5{
+position: absolute;
+margin-left: 969px;
+transform: rotate(0.77deg);
+right: 0px;
+}
+
+.for-box{
+    height: 1385px;
+    background-image: url(img/igra2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.for-box1{
+  height: 3400px;
+  background-image: url(img/igra2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+  .box-igra1{
+color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 64px;
+font-weight: 700;
+line-height: 78.02px;
+padding-top: 41px;
+  margin-bottom: 17px;
+  margin-left: 31px;
+  }
+
+.box-igra2{
+color: rgb(255, 255, 255);
+width: 480px;
+height: 26px;
+margin-left: 31px;
+}
+.box1{
+    width: 350px;
+    height: 420px;
+}
+
+.box1:hover{
+  width: 350px;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.star{
+  width: 584.72px;
+  height: 584.72px;
+  top: 841.92px;
+  position: absolute;
+  right: 0px;
+}
+
+.box-ru{
+  padding-top: 49px;
+}
+
+.star1{
+  width: 31.34px;
+  height: 31.34px;
+  top: 1476px;
+  position: absolute;
+  left: 39px;
+}
+
+.star2{
+  width: 54.6px;
+  height: 54.6px;
+  top: 1528px;
+  left: 45.18px;
+  position: absolute;  
+
+}
+
+.cart-box{
+  padding-top: 72px;
+}
+
+.cart1{
+  background-color: #fff;
+  width: 378px;
+  padding-bottom: 1px;
+  border-radius: 28px 28px 28px 28px;
+
+
+ }
+ .cart2{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 28px 28px 28px 28px;
+
+ }
+ .cart3{
+  background-color: #fff;
+  width: 378px;
+  padding-bottom: 1px;
+  border-radius: 28px 28px 28px 28px;
+  transform: scale(1.0);
+  transition: ls;
+
+
+ }
+ .cart4{
+  background-color: #fff;
+  width: 378px;
+  padding-bottom: 1px;
+  border-radius: 28px 28px 28px 28px;
+
+
+ }
+ .cart5{
+  background-color: #fff;
+  width: 378px;
+  padding-bottom: px;
+  border-radius: 28px 28px 28px 28px;
+  margin-top:40px;
+
+
+ }
+ .cart6{
+  background-color: #fff;
+  width: 378px;
+  padding-bottom: 1px;
+  border-radius: 28px 28px 28px 28px;
+ }
+ .cart1:hover{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 28px 28px 28px 28px;
+  transform: scale(1.1);
+  transition: ls;
+ }
+ .cart2:hover{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 28px 28px 28px 28px;
+  transform: scale(1.1);
+  transition: ls;
+ }
+ .cart3:hover{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 28px 28px 28px 28px;
+  transform: scale(1.1);
+  transition: ls;
+ }
+ .cart4:hover{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 28px 28px 28px 28px;
+  transform: scale(1.1);
+  transition: ls;
+ }
+ .cart5:hover{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 28px 28px 28px 28px;
+  transform: scale(1.1);
+  transition: ls;
+ }
+ .cart6:hover{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 28px 28px 28px 28px;
+  transform: scale(1.1);
+  transition: ls;
+ }
+ .cart-img1{
+ width: 378px;
+ }
+ .cart-img2{
+  width: 378px;
+  }
+  .cart-img3{
+      width: 378px;
+      }
+      .cart-img4{
+      width: 378px;
+       }
+     .cart-img5{
+      width: 378px;
+      }
+     .cart-img6{
+       width: 378px;
+       }
+
+ .text2{
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+  color: rgb(32, 32, 39);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 35px;
+width: 108px;
+height: 36px;
+margin-left: 16px;
+margin-top: 8px;
+text-align: center;
+       }  
+
+      .text3{
+        color: rgb(32, 32, 39);
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0px;
+text-align: left;
+margin-left: 16px;
+margin-top: 16px;
+margin-bottom: 20px;
+      } 
+      .cart-box{
+        margin-left: 19px;
+        margin-top: 12px;
+        gap: 21px;
+        display: flex;
+    flex-wrap: wrap;
+    width: 1197px;
+      }
+
+
+      .mini-game{
+        font-family: Montserrat;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78.02px;
+        text-align: left;
+        color: rgb(255, 255, 255);    
+        margin-left: 135px;
+        position: relative;
+        left: 243px;
+      }
+
+      .play{
+        width: 212px;
+        height: 35px;
+        padding: 16px 28px 16px 28px;
+        border-radius: 60px 60px 60px 60px;
+        background-color: #202027;
+        border-color: #202027;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34.01px;
+        text-align: center;
+        display: inline-block;
+      }
+
+      .play:hover{
+         background-color: #fff;
+         color: #202027;
+         font-family: Montserrat;
+         border: 1px solid #202027;
+      }
+
+      .play1{
+        width: 212px;
+        height: 35px;
+        padding: 16px 28px 16px 28px;
+        border-radius: 60px 60px 60px 60px;
+        background-color: #202027;
+        border-color: #202027;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34.01px;
+        text-align: center;
+        display: inline-block;
+      }
+      .play1:hover{
+         background-color: #fff;
+         color: #202027;
+         font-family: Montserrat;
+         border: 1px solid #202027;
+      }
+            
+
+      .game{
+         border-radius: 30px 30px 30px 30px;
+      }
+
+      .game1{
+        background-color: aliceblue;
+        width: 1188px;
+        height: 500px;
+        margin-left: 396px;
+        border-radius: 42px;
+        margin-top: 25px
+      }
+
+      .game-img1{
+        margin-left: 590px;
+        width: 600px;
+        height: 500px;
+      }
+ 
+     .game-img2{
+      margin-left: 0px;
+      width:600px;
+      height: 500px;
+     }
+
+      .pole{
+        margin-top: -418px;
+        width: 399px;
+        height: 228px;
+        margin-left: 82px;
+      }
+
+      .pole4{
+        width: 515px;
+        height: 344px;
+        margin-top: -430px;
+        margin-left: 667px;
+      }
+
+      .title-game{
+        margin-bottom: 20px;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.51px;
+        text-align: left;        
+      }
+
+      .title-game1{
+        margin-bottom: 20px;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.51px;
+        text-align: left;        
+      }
+
+      .describe{
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;        
+        margin-bottom: 20px;
+      }
+
+      .describe1{
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;        
+        margin-bottom: 20px;
+      }
+
+      .rules{
+        height: 150px;
+        background-color: #BCEC30;        
+      }
+
+      .protection{
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29.26px;
+        text-align: center;
+        padding-top: 60px;
+        color: black;
+      }
+
+      .star-end1{
+        position: absolute;
+        right: 122px;
+        top: 2228px;
+      }
+
+      .star-end2{
+        position: absolute;
+        right: 42px;
+        top: 2249px;
+      }
+
+      .star-end3{
+         position: absolute;
+        right: 63px;
+        top: 5425px;
+      }
+
+      .star-end4{
+        position: absolute;
+        right: 151px;
+        top: 5481px;
+      }
+
+      .emoji{
+        position: absolute;
+        rotate: 7deg;
+        margin-left: -233px;
+        margin-top: 105px;
+        width: 90px;
+        height: 93px;
+      }
+
+      .emoji1{
+        position: absolute;
+        rotate: 5deg;
+        margin-left: 818px;
+        margin-top: -325px;
+        width: 143px;
+        height: 141px;
+      }
+
+      .catalog{
+        font-family: Montserrat;
+        font-size: 94px;
+        font-weight: 600;
+        line-height: 39.26px;
+        text-align: center;
+        padding-top: 60px;
+        color: black;
+      }
+    }
+
+      @import "mobile";
