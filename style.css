@@ -187,39 +187,7 @@ a {
   transition: ls;
 }
 
-.cart2:hover {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1.1);
-  transition: ls;
-}
-
-.cart3:hover {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1.1);
-  transition: ls;
-}
-
 .cart4:hover {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1.1);
-  transition: ls;
-}
-
-.cart5:hover {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1.1);
-  transition: ls;
-}
-
-.cart6:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
