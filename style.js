@@ -1,8 +1,8 @@
 // Task 1
 let password = "пароль";
 
-var password2 = "12345"
-var result = prompt("Введите пароль");
+let password2 = "12345"
+let result = prompt("Введите пароль");
 if (result == password2){
     alert("Пароль введен верно");
 } else {
