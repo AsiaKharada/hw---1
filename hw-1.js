@@ -29,12 +29,12 @@ alert(a % b)
 
 // Task 7 
 let num = 1;
-num = num + 5;
-num = num - 3;
-num = num * 7;
-num = num / 3;
-num = num + 1;
-num = num - 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num++;
+num--;
 alert(num);
 
 // Task 8
@@ -49,8 +49,8 @@ let user = {
 };
 
 // Task 10
-const name = prompt("Введите ваше имя")
-alert("Привет, {name}");
+const username = prompt(`Введите ваше имя`);
+alert(`Привет, ${username}`);
 
 
 
