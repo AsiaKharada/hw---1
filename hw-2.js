@@ -1,8 +1,10 @@
 //Task 1
+
 alert(`Привет`);
 alert(`Привет`);
 
 //Task 2
+
 let i = 1;
 const k = 5;
 do{
@@ -11,6 +13,7 @@ do{
 } while(i <= k);
 
 //Task 3
+
 let a = 7;
 const b = 22;
 do{
@@ -19,6 +22,7 @@ do{
 } while(i <= b);
 
 //Task 4
+
 const obj = {
     "Коля" : "200" ,
     "Вася" : "300",
@@ -30,6 +34,7 @@ for (const name in obj){
 }
 
 //Task 5 
+
 let n = 1000;
 let num = 0;
 
