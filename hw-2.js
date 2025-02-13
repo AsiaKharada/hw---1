@@ -16,7 +16,7 @@ while(i <= k){
 
 let a = 7;
 b = 22;
-while(i <= b){
+while(a <= b){
     console.log(a);
     a += 1;
 }
