@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 <head>
-    <title>Игровой бот</title>
+    <title>Угадай число</title>
     <meta charset="utf-8" />
 </head>
 <body>
     <script>
-        let input, number, random = Math.floor(Math.random() * 1000);
+        let input, number, random = Math.floor(Math.random() * 100);
  
-        while ((input = prompt("Загадано число от 0 до 999. Попробуйте угадать!")) !== null) {
+        while ((input = prompt("Загадано число от 0 до 100. Попробуйте угадать!")) !== null) {
             if ((number = +input) !== parseFloat(input) || !Number.isFinite(number))
                 alert("Введите число!");
             else if (number > random)
