@@ -6,20 +6,20 @@ alert(`Привет`);
 //Task 2
 
 let i = 1;
-const k = 5;
-do{
+k = 5;
+while(i <= k){
     console.log(i);
-    i++;
-} while(i <= k);
+    i += 1;
+}
 
 //Task 3
 
 let a = 7;
-const b = 22;
-do{
+b = 22;
+while(i <= b){
     console.log(a);
-  a++;
-} while(i <= b);
+    a += 1;
+}
 
 //Task 4
 
