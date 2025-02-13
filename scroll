@@ -1,0 +1,10 @@
+ <div class="line">
+     <div class="scroll">
+     Векторина <img class="stars" src="img/Stars.png">
+      Угадай число <img class="stars" src="img/Stars.png">
+       Переверни текст <img class="stars" src="img/Stars.png">
+      Простая арифметика <img class="stars" src="img/Stars.png">
+     Камень, ножницы, бумага <img class="stars" src="img/Stars.png">
+       Генератор случайных цветов 
+     </div>
+ </div>
