@@ -268,7 +268,7 @@ a {
 
 .play {
   width: 247px;
-  height: 66px;
+  height: 36px;
   padding: 16px 28px 16px 28px;
   border-radius: 60px 60px 60px 60px;
   background-color: #202027;
@@ -280,6 +280,7 @@ a {
   line-height: 34.01px;
   text-align: center;
   border: 1px solid rgb(32, 32, 39);
+  display: inherit;
 }
 
 .play:hover {
