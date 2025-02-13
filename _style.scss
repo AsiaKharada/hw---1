@@ -326,8 +326,8 @@ margin-bottom: 20px;
       }
 
       .play{
-        width: 212px;
-        height: 35px;
+        width: 242px;
+        height: 36px;
         padding: 16px 28px 16px 28px;
         border-radius: 60px 60px 60px 60px;
         background-color: #202027;
@@ -338,7 +338,7 @@ margin-bottom: 20px;
         font-weight: 600;
         line-height: 34.01px;
         text-align: center;
-        display: inline-block;
+        display: inherit;
       }
 
       .play:hover{
