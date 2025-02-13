@@ -218,91 +218,34 @@ margin-left: 31px;
   background-color: #fff;
   width: 378px;
   padding-bottom: 1px;
-  border-radius: 28px 28px 28px 28px;
-
-
+  border-radius: 30px;
+  height: 473px;
  }
- .cart2{
-  background-color: #fff;
-  width: 378px;
-  border-radius: 28px 28px 28px 28px;
 
- }
- .cart3{
-  background-color: #fff;
-  width: 378px;
-  padding-bottom: 1px;
-  border-radius: 28px 28px 28px 28px;
-  transform: scale(1.0);
-  transition: ls;
-
-
- }
  .cart4{
   background-color: #fff;
   width: 378px;
-  padding-bottom: 1px;
-  border-radius: 28px 28px 28px 28px;
-
-
+  margin-top: 36px;
+  border-radius: 30px;
+  height: 551px;
  }
- .cart5{
-  background-color: #fff;
-  width: 378px;
-  padding-bottom: px;
-  border-radius: 28px 28px 28px 28px;
-  margin-top:40px;
-
-
- }
- .cart6{
-  background-color: #fff;
-  width: 378px;
-  padding-bottom: 1px;
-  border-radius: 28px 28px 28px 28px;
- }
+ 
  .cart1:hover{
   background-color: #fff;
   width: 378px;
-  border-radius: 28px 28px 28px 28px;
+  border-radius: 30px;
   transform: scale(1.1);
   transition: ls;
  }
- .cart2:hover{
-  background-color: #fff;
-  width: 378px;
-  border-radius: 28px 28px 28px 28px;
-  transform: scale(1.1);
-  transition: ls;
- }
- .cart3:hover{
-  background-color: #fff;
-  width: 378px;
-  border-radius: 28px 28px 28px 28px;
-  transform: scale(1.1);
-  transition: ls;
- }
+ 
  .cart4:hover{
   background-color: #fff;
   width: 378px;
-  border-radius: 28px 28px 28px 28px;
+  border-radius: 30px;
   transform: scale(1.1);
   transition: ls;
  }
- .cart5:hover{
-  background-color: #fff;
-  width: 378px;
-  border-radius: 28px 28px 28px 28px;
-  transform: scale(1.1);
-  transition: ls;
- }
- .cart6:hover{
-  background-color: #fff;
-  width: 378px;
-  border-radius: 28px 28px 28px 28px;
-  transform: scale(1.1);
-  transition: ls;
- }
+
  .cart-img1{
  width: 378px;
  }
