@@ -14,11 +14,10 @@
       }
 .button2{
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  width: 78px;
-  height: 23px;
-  
+  padding: 16px 28px 16px 28px;
+  height: 24px;
+  width: 152px;
+  left: 74px;
 }
 
     
@@ -160,8 +159,8 @@ text-align: left;
 width: 275px;
   }
   .play {
-    width: 285px;
-    height: 55px;
+    width: 185px;
+    height: 30px;
     padding: 16px 28px 16px 28px;
     border-radius: 60px 60px 60px 60px;
     background-color: #202027;
@@ -172,6 +171,8 @@ width: 275px;
     font-weight: 600;
     line-height: 34.01px;
     text-align: center;
+    left: 73px;
+    position: absolute;
   }
   .pole {
     margin-left: 2px;

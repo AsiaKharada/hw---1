@@ -125,23 +125,22 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 473px;
+  position: relative;
 }
 
 .cart2 {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
-  height: 512px;
+  height: 498px;
 }
 
 .cart3 {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
-  transform: scale(1);
-  padding-bottom: 1px;
-  border-radius: 30px;
-  height: 473px;
+  height: 519px;
+  margin-top: 43px;
  }
 
  .cart4{
@@ -152,40 +151,24 @@ a {
   height: 551px;
  }
  
- .cart1:hover{
+
+.cart1:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   transform: scale(1.1);
   transition: ls;
-  height: 473px;
 }
 
-.cart4 {
+.cart2:hover {
   background-color: #fff;
   width: 378px;
-  margin-top: 36px;
   border-radius: 30px;
-  height: 551px;
+  transform: scale(1.1);
+  transition: ls;
 }
 
-.cart5 {
-  background-color: #fff;
-  width: 378px;
-  margin-top: 40px;
-  border-radius: 30px;
-  height: 512px;
-}
-
-.cart6 {
-  background-color: #fff;
-  width: 378px;
-  margin-top: 36px;
-  border-radius: 30px;
-  height: 551px;
-}
-
-.cart1:hover {
+.cart3:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -225,7 +208,7 @@ a {
   letter-spacing: 0px;
   text-align: left;
   margin-left: 16px;
-  margin-top: 16px;
+  margin-top: 7px;
   margin-bottom: 20px;
 }
 
@@ -391,7 +374,7 @@ a {
 
 .for-box1 {
   height: 3500px;
-  background-color: rgb(32, 32, 39);
+  background-color: #202027;
   position: relative;
 }
 
@@ -414,15 +397,17 @@ a {
 }
 
 .describe {
+  color: rgb(0, 0, 0);
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 33px;
 }
 
 .describe1 {
+  color: rgb(0, 0, 0);
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
