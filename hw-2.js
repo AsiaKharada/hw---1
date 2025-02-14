@@ -1,7 +1,11 @@
 //Task 1
 
-alert(`Привет`);
-alert(`Привет`);
+let times = 0;
+
+while( times < 2){
+    console.log(`Привет`);
+    times++;
+}
 
 //Task 2
 
@@ -43,5 +47,14 @@ write( n >= 50); {
     num++;
 }
 
-console.log(`результат: %{n}`);
+console.log(`результат: ${n}`);
 console.log(`количество циклов: ${num}`);
+
+//Task 6 
+const firstFriday = 2; //Например, первая пятница 2-го числа
+
+for( let day = firstFriday;
+    day <= 31;
+    day += 7){
+        console.log(`Сегодня пятница, ${day} -е число. Необходимо подготовить отсчет.`);
+    }
