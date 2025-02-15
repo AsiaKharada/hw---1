@@ -16,8 +16,13 @@
   position: absolute;
   padding: 16px 28px 16px 28px;
   height: 24px;
-  width: 152px;
-  left: 74px;
+  right: 50px;
+  font-size: 16px;
+  line-height: 22.67px;
+}
+
+.for-box1{
+  height: 3820px;
 }
 
     
@@ -46,6 +51,7 @@
     line-height: 20px;
     letter-spacing: 0px;
     text-align: center;
+    height: 50px;
 }
 .head-block{
   background-image: url(img/Vector1.svg);
@@ -54,46 +60,83 @@
   background-position: calc(90% + 120px) calc(2% - 110px);
 
 }
-.game1{
+.star-img1{
     position: absolute;
     width: 21px;
 height: 21px;
-margin-left: 90px;
+left: 111px;
 }
-.game2{
+.star-img2{
     position: absolute;
     width: 35px;
     height: 35px;
-    right: 550px;
+    left: 58px;
 }
-.game3{
+.star-img3{
     position: absolute;
-    width: 51px;
-    height: px;
-    margin-left: 450px;
-    margin-top: 190px;
+    width: 61px;
+    right: 13px;
+    top: 510px;  
 }
-.game4{
+.star-img4{
     position: absolute;
-    width: 18px;
-    height: 18px;
-    margin-left: 390px;
-    margin-top: 150px;
+    width: 20px;
+    height: 20px;
+    right: 71px;
+    top: 537px;
 }
   
 .for-box{
     display: none;
 }
 .for-box1{
-    height: 3700px;
+    height: 3820px;
 }
-.game1 {
+
+.cart-game1 {
+  background-color: #fff;
+  width: 342px;
+  margin-top: 36px;
+  border-radius: 28px;
+  height: 536px;
+  }
+
+  .cart-game2{
+  background-color: #fff;
+  width: 342px;
+  margin-top: 36px;
+  border-radius: 28px;
+  height: 573px;
+  }
+  .cart-game3 {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
-    border-radius: 30px;
-    height: 565px;
+    border-radius: 28px;
+    height: 545px;
+    }
+
+  .cart-game4 {
+  background-color: #fff;
+  width: 342px;
+  margin-top: 36px;
+  border-radius: 28px;
+  height: 530px;
   }
+  .cart-game5 {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 583px;
+    }
+    .cart-game6 {
+      background-color: #fff;
+      width: 342px;
+      margin-top: 36px;
+      border-radius: 28px;
+      height: 600px;
+      }
   
   .game-img1 {
     margin-left: -1px;
@@ -114,6 +157,7 @@ margin-left: 90px;
     letter-spacing: 0px;
     text-align: left;
     margin-bottom: 10px;
+    margin-left: 23px;
   }
   .title-game1 {
     color: rgb(32, 32, 39);
@@ -125,19 +169,14 @@ margin-left: 90px;
     text-align: left;
     width: 284.93px;
     margin-bottom: 10px;
-  }
-  .title-game1 {
-    color: rgb(32, 32, 39);
-    font-family: Montserrat;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 39px;
-    letter-spacing: 0px;
-    text-align: left;
-    width: 284.93px;
-    margin-bottom: 10px;
+    margin-left: 23px;
   }
   
+  .pol1{
+    background-color: rgb(153, 204, 14);
+    height: 100px;
+  }
+
   .describe {
     color: rgb(0, 0, 0);
 font-family: Montserrat;
@@ -147,6 +186,7 @@ line-height: 20px;
 letter-spacing: 0px;
 text-align: left;
 width: 275px;
+margin-left: 23px;
   }
   .describe1 {
     color: rgb(0, 0, 0);
@@ -157,9 +197,10 @@ line-height: 20px;
 letter-spacing: 0px;
 text-align: left;
 width: 275px;
+margin-left: 23px;
   }
   .play {
-    width: 185px;
+    width: 234px;
     height: 30px;
     padding: 16px 28px 16px 28px;
     border-radius: 60px 60px 60px 60px;
@@ -171,7 +212,7 @@ width: 275px;
     font-weight: 600;
     line-height: 34.01px;
     text-align: center;
-    left: 73px;
+    left: 53px;
     position: absolute;
   }
   .pole {

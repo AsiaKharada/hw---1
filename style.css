@@ -284,7 +284,7 @@ a {
   margin-top: 25px;
 }
 
-.game1 {
+.cart-game1 {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -292,7 +292,7 @@ a {
   margin-top: 25px;
 }
 
-.game2 {
+.cart-game2 {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -300,7 +300,7 @@ a {
   margin-top: 25px;
 }
 
-.game3 {
+.cart-game3 {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -308,7 +308,7 @@ a {
   margin-top: 25px;
 }
 
-.game4 {
+.cart-game4 {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -316,7 +316,7 @@ a {
   margin-top: 25px;
 }
 
-.game5 {
+.cart-game5 {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -324,7 +324,7 @@ a {
   margin-top: 25px;
 }
 
-.game6 {
+.cart-game6 {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -600,42 +600,42 @@ a {
   .for-box1 {
     height: 3700px;
   }
-  .game1 {
+  .cart-game1 {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
     border-radius: 28px;
     height: 510px;
   }
-  .game2 {
+  .cart-game2 {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
     border-radius: 28px;
     height: 560px;
   }
-  .game3 {
+  .cart-game3 {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
     border-radius: 28px;
     height: 520px;
   }
-  .game4 {
+  .cart-game4 {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
     border-radius: 28px;
     height: 530px;
   }
-  .game5 {
+  .cart-game5 {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
     border-radius: 28px;
     height: 570px;
   }
-  .game6 {
+  .cart-game6 {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
