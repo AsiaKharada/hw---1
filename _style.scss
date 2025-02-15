@@ -26,12 +26,12 @@
 
   .top {
     height: 816px;
-    background-image: url(img/igra1.jpeg);
+    background-image: url(img/game1.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-  .text1{
+  .heading{
     font-family: Montserrat;
     color: rgb(32, 32, 39);
     font-size: 64px;
@@ -43,7 +43,7 @@
     width: 816px;
     padding-bottom: 30px;
   }
-  .block{
+  .subtitle{
 
     color: rgb(32, 32, 39);
     font-size: 24px;
@@ -118,31 +118,31 @@
   top: 195px;
 }
 
-.igra2{
+.star-img2{
   position: absolute;
   top: 94px;
   left: 63px;
   }
   
-.igra1{
+.star-img1{
   position: absolute;
   top: 63px;
   left: 146px;
       }
 
-.igra3{
+.star-img3{
     position: absolute;
     bottom: 122px;
     right: 325px;
 }
 
-.igra4{
+.star-img4{
    position: absolute;
    bottom: 195px;
    right: 435px;
 }
 
-.igra5{
+.star-img5{
 position: absolute;
 margin-left: 969px;
 transform: rotate(0.77deg);
@@ -151,7 +151,7 @@ right: 0px;
 
 .for-box{
     height: 1385px;
-    background-image: url(img/igra2.jpeg);
+    background-image: url(img/game2.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -159,13 +159,13 @@ right: 0px;
 
 .for-box1{
   height: 3400px;
-  background-image: url(img/igra2.jpeg);
+  background-image: url(img/game2.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-  .box-igra1{
+  .about-game{
 color: rgb(255, 255, 255);
 font-family: Montserrat;
 font-size: 64px;
@@ -176,7 +176,7 @@ padding-top: 41px;
   margin-left: 31px;
   }
 
-.box-igra2{
+.about-game1{
 color: rgb(255, 255, 255);
 width: 480px;
 height: 26px;
@@ -222,7 +222,7 @@ margin-left: 31px;
 
 }
 
-.cart-box{
+.cart-box_game{
   padding-top: 72px;
 }
 
@@ -276,7 +276,7 @@ margin-left: 31px;
        width: 378px;
        }
 
- .text2{
+ .number-game{
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
   color: rgb(32, 32, 39);
@@ -291,7 +291,7 @@ margin-top: 8px;
 text-align: center;
        }  
 
-      .text3{
+      .name-game{
         color: rgb(32, 32, 39);
 font-family: Montserrat;
 font-size: 32px;
@@ -303,7 +303,7 @@ margin-left: 16px;
 margin-top: 16px;
 margin-bottom: 20px;
       } 
-      .cart-box{
+      .cart-box_game{
         margin-left: 19px;
         margin-top: 12px;
         gap: 21px;
@@ -416,7 +416,8 @@ margin-bottom: 20px;
         font-size: 48px;
         font-weight: 700;
         line-height: 58.51px;
-        text-align: left;        
+        text-align: left; 
+        color: #202027;       
       }
 
       .title-game1{
@@ -425,7 +426,8 @@ margin-bottom: 20px;
         font-size: 48px;
         font-weight: 700;
         line-height: 58.51px;
-        text-align: left;        
+        text-align: left; 
+        color: #202027;       
       }
 
       .describe{

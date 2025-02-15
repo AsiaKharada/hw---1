@@ -25,14 +25,14 @@ letter-spacing: 0px;
 text-align: left;
 padding-top: 50px;
   }
-.text1{
+.heading{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 40px;
     line-height: 49px;
     text-align: center;  
 }
-.block{
+.subtitle{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 16px;
@@ -41,19 +41,19 @@ padding-top: 50px;
     letter-spacing: 0px;
     text-align: center;
 }
-.multi-bg-example{
+.head-block{
     background-image: url(img/Vector1.svg);
     background-color: rgb(225, 255, 143);
     background-repeat: no-repeat;
     background-position: calc(90% + 120px) calc(2% - 110px);
 }
-.igra1{
+.game1{
     position: absolute;
     width: 21px;
 height: 21px;
 right: 260px;
 }
-.igra2{
+.game2{
   position: absolute;
   width: 35px;
   height: 35px;
@@ -61,14 +61,14 @@ right: 260px;
   margin-left: 00px;
   margin-right: -300px;
 }
-.igra3{
+.game3{
   position: absolute;
   width: 39px;
   height: 41px;
   margin-left: 310px;
   margin-top: 175px;
 }
-.igra4{
+.game4{
   position: absolute;
   width: 18px;
   height: 18px;
@@ -136,7 +136,7 @@ right: 260px;
     height: 283px;
   }
   .title-game {
-    color: rgb(32, 32, 39);
+    color: #202027;
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;
@@ -147,7 +147,7 @@ right: 260px;
     width: 284px;
   }
   .title-game1 {
-    color: rgb(32, 32, 39);
+    color: #202027;
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;

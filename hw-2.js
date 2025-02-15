@@ -42,7 +42,7 @@ for (const name in obj){
 let n = 1000;
 let num = 0;
 
-write( n >= 50); {
+while( n >= 50){
     n /= 2;
     num++;
 }
