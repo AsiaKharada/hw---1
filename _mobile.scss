@@ -3,7 +3,7 @@
         padding-left: 16px;
         padding-right: 16px;
       }
-.button2{
+.button-start{
   position: absolute;
   padding: 16px 28px 16px 28px;
   height: 24px;
@@ -81,12 +81,27 @@ right: 260px;
 .for-box1{
     height: 3820px;
 }
-.cart-game1 {
+.cart-box__big {
   background-color: #fff;
   width: 342px;
   margin-top: 36px;
   border-radius: 28px;
   height: 510px;
+  }
+
+  .cart-box__bigger{
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 575px;
+  }
+  .cart-box__longer{
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 605px;
   }
 
   .cart-game2{
@@ -146,7 +161,7 @@ right: 260px;
     margin-bottom: 10px;
     width: 284px;
   }
-  .title-game1 {
+  .title-game__long {
     color: #202027;
     font-family: Montserrat;
     font-size: 32px;
@@ -168,7 +183,7 @@ letter-spacing: 0px;
 text-align: left;
 width: 275px;
   }
-  .describe1 {
+  .describe-right {
     color: rgb(0, 0, 0);
 font-family: Montserrat;
 font-size: 16px;
@@ -185,7 +200,7 @@ width: 275px;
     left: 73px;
   }
 
-  .pole {
+  .game-title__little {
    
     margin-left: 40px;
     margin-top: 0;
@@ -193,21 +208,21 @@ width: 275px;
     height: 182px;
   }
   
-  .pole1 {
+  .game-title__mini {
     margin-left: 40px;
     margin-top: 0px;
     width: 284px;
     height: 182px;
   }
   
-  .pole3 {
+  .game-title__average {
     margin-left: 40px;
     margin-top: 0px;
     width: 284px;
     height: 182px;
   }
 
-  .pole4 {
+  .game-title__big {
     margin-left: 40px;
     margin-top: 0px;
     width: 284px;
@@ -223,7 +238,7 @@ letter-spacing: 0px;
 text-align: center;
 padding-top: 40px;
   }
-  .pol1{
+  .footer{
     background-color: rgb(153, 204, 14);
     height: 100px;
   }

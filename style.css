@@ -43,7 +43,7 @@ a {
   margin-top: 24px;
 }
 
-.button2 {
+.button-start {
   background: rgb(0, 0, 0);
   text-align: center;
   border: 1px solid #000;
@@ -62,7 +62,7 @@ a {
   align-items: center;
 }
 
-.button2:hover {
+.button-start:hover {
   background: rgb(255, 253, 253);
   color: rgb(2, 2, 2);
   font-family: Montserrat;
@@ -110,7 +110,7 @@ a {
   padding-top: 94px;
 }
 
-.about-game1 {
+.about-game_title {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 24px;
@@ -120,7 +120,7 @@ a {
   margin-top: 24px;
 }
 
-.cart1 {
+.cart-mini {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -128,14 +128,14 @@ a {
   position: relative;
 }
 
-.cart2 {
+.cart-avarage {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   height: 498px;
 }
 
-.cart3 {
+.cart-big {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -143,7 +143,7 @@ a {
   margin-top: 43px;
  }
 
- .cart4{
+ .cart-huge{
   background-color: #fff;
   width: 378px;
   margin-top: 36px;
@@ -152,7 +152,7 @@ a {
  }
  
 
-.cart1:hover {
+.cart-mini:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -160,7 +160,7 @@ a {
   transition: ls;
 }
 
-.cart2:hover {
+.cart-avarage:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -168,7 +168,7 @@ a {
   transition: ls;
 }
 
-.cart3:hover {
+.cart-big:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -176,7 +176,7 @@ a {
   transition: ls;
 }
 
-.cart4:hover {
+.cart-huge:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -212,7 +212,7 @@ a {
   margin-bottom: 20px;
 }
 
-.cart-box_game{
+.cart-box__game{
   margin-top: 40px;
   display: flex;
   gap: 32px;
@@ -249,7 +249,7 @@ a {
   color: rgb(255, 255, 255);
 }
 
-.play {
+.button-play {
   width: 247px;
   height: 36px;
   padding: 16px 28px 16px 28px;
@@ -266,7 +266,7 @@ a {
   display: inherit;
 }
 
-.play:hover {
+.button-play:hover {
   background-color: #fff;
   color: #202027;
   font-family: Montserrat;
@@ -276,7 +276,8 @@ a {
   border-radius: 30px 30px 30px 30px;
 }
 
-.game1 {
+
+.cart-box__big {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -284,7 +285,7 @@ a {
   margin-top: 25px;
 }
 
-.cart-game1 {
+.cart-box__bigger {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -292,39 +293,7 @@ a {
   margin-top: 25px;
 }
 
-.cart-game2 {
-  background-color: aliceblue;
-  width: 1188px;
-  height: 500px;
-  border-radius: 52px;
-  margin-top: 25px;
-}
-
-.cart-game3 {
-  background-color: aliceblue;
-  width: 1188px;
-  height: 500px;
-  border-radius: 52px;
-  margin-top: 25px;
-}
-
-.cart-game4 {
-  background-color: aliceblue;
-  width: 1188px;
-  height: 500px;
-  border-radius: 52px;
-  margin-top: 25px;
-}
-
-.cart-game5 {
-  background-color: aliceblue;
-  width: 1188px;
-  height: 500px;
-  border-radius: 52px;
-  margin-top: 25px;
-}
-
-.cart-game6 {
+.cart-box__longer {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -351,31 +320,38 @@ a {
   margin-left: 82px;
 }
 
-.pole1 {
+.game-title__mini {
   margin-top: -418px;
   width: 544px;
   height: 295px;
   margin-left: 664px;
 }
 
-.pole3 {
+.game-title__average {
   margin-top: -418px;
   width: 493px;
   height: 344px;
   margin-left: 64px;
 }
 
-.pole4 {
+.game-title__big {
   margin-top: -451px;
   width: 515px;
   height: 344px;
   margin-left: 636px;
 }
 
-.for-box1 {
+.for-box__big{
   height: 3500px;
   background-color: #202027;
   position: relative;
+}
+
+.game-title__little{
+  margin-top: -380px;
+  margin-left: 58px;
+  width: 478px;
+  height: 270px;
 }
 
 .title-game {
@@ -387,7 +363,7 @@ a {
   text-align: left;
 }
 
-.title-game1 {
+.title-game__long {
   margin-bottom: 20px;
   font-family: Montserrat;
   font-size: 48px;
@@ -406,7 +382,7 @@ a {
   margin-bottom: 33px;
 }
 
-.describe1 {
+.describe-right {
   color: rgb(0, 0, 0);
   font-family: Montserrat;
   font-size: 24px;
@@ -487,7 +463,7 @@ a {
   color: black;
 }
 
-.pol1 {
+.footer {
   background-color:rgb(166, 215, 33);
   height: 150px;
 }
@@ -524,7 +500,7 @@ a {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .button2 {
+  .button-start {
     position: absolute;
     padding: 16px 28px 16px 28px;
     margin-left: 19px;
@@ -597,10 +573,10 @@ a {
   .for-box {
     display: none;
   }
-  .for-box1 {
+  .for-box__big{
     height: 3700px;
   }
-  .cart-game1 {
+  .cart-game__left {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
@@ -614,7 +590,7 @@ a {
     border-radius: 28px;
     height: 560px;
   }
-  .cart-game3 {
+  .cart-box__right {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
@@ -663,7 +639,7 @@ a {
     margin-bottom: 10px;
     width: 284px;
   }
-  .title-game1 {
+  .title-game__long {
     color: #202027;
     font-family: Montserrat;
     font-size: 32px;
@@ -684,7 +660,7 @@ a {
     text-align: left;
     width: 275px;
   }
-  .describe1 {
+  .describe-right {
     color: rgb(0, 0, 0);
     font-family: Montserrat;
     font-size: 16px;
@@ -694,7 +670,7 @@ a {
     text-align: left;
     width: 275px;
   }
-  .play {
+  .button-play {
     width: 285px;
     height: 55px;
     padding: 16px 28px 16px 28px;
@@ -712,25 +688,25 @@ a {
     line-height: 141.69%;
     text-align: center;
   }
-  .pole {
+  .game-title__little {
     margin-left: 40px;
     margin-top: 0;
     width: 284px;
     height: 182px;
   }
-  .pole1 {
+  .game-title__mini {
     margin-left: 40px;
     margin-top: 0px;
     width: 284px;
     height: 182px;
   }
-  .pole3 {
+  .game-title__average {
     margin-left: 40px;
     margin-top: 0px;
     width: 284px;
     height: 182px;
   }
-  .pole4 {
+  .game-title__big {
     margin-left: 40px;
     margin-top: 0px;
     width: 284px;
@@ -746,7 +722,7 @@ a {
     text-align: center;
     padding-top: 40px;
   }
-  .pol1 {
+  .footer {
     background-color: rgb(225, 255, 143);
     height: 100px;
   }

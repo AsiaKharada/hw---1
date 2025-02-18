@@ -12,16 +12,16 @@
         letter-spacing: 0px;
         text-align: left;
       }
-.button2{
+.button-start{
   position: absolute;
   padding: 16px 28px 16px 28px;
   height: 24px;
-  right: 50px;
+  right: 45px;
   font-size: 16px;
   line-height: 22.67px;
 }
 
-.for-box1{
+.for-box__big{
   height: 3820px;
 }
 
@@ -89,11 +89,11 @@ left: 111px;
 .for-box{
     display: none;
 }
-.for-box1{
-    height: 3820px;
+.for-box__big{
+    height: 3925px;
 }
 
-.cart-game1 {
+.cart-box__big {
   background-color: #fff;
   width: 342px;
   margin-top: 36px;
@@ -101,42 +101,21 @@ left: 111px;
   height: 536px;
   }
 
-  .cart-game2{
-  background-color: #fff;
-  width: 342px;
-  margin-top: 36px;
-  border-radius: 28px;
-  height: 573px;
-  }
-  .cart-game3 {
+  .cart-box__bigger{
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
     border-radius: 28px;
-    height: 545px;
-    }
+    height: 575px;
+  }
 
-  .cart-game4 {
-  background-color: #fff;
-  width: 342px;
-  margin-top: 36px;
-  border-radius: 28px;
-  height: 530px;
-  }
-  .cart-game5 {
+  .cart-box__longer{
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
     border-radius: 28px;
-    height: 583px;
-    }
-    .cart-game6 {
-      background-color: #fff;
-      width: 342px;
-      margin-top: 36px;
-      border-radius: 28px;
-      height: 600px;
-      }
+    height: 605px;
+  }
   
   .game-img1 {
     margin-left: -1px;
@@ -159,7 +138,7 @@ left: 111px;
     margin-bottom: 10px;
     margin-left: 23px;
   }
-  .title-game1 {
+  .title-game__long {
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 32px;
@@ -172,7 +151,7 @@ left: 111px;
     margin-left: 23px;
   }
   
-  .pol1{
+  .footer{
     background-color: rgb(153, 204, 14);
     height: 100px;
   }
@@ -188,7 +167,7 @@ text-align: left;
 width: 275px;
 margin-left: 23px;
   }
-  .describe1 {
+  .describe-right {
     color: rgb(0, 0, 0);
 font-family: Montserrat;
 font-size: 16px;
@@ -199,7 +178,7 @@ text-align: left;
 width: 275px;
 margin-left: 23px;
   }
-  .play {
+  .button-play {
     width: 234px;
     height: 30px;
     padding: 16px 28px 16px 28px;
@@ -212,25 +191,25 @@ margin-left: 23px;
     font-weight: 600;
     line-height: 34.01px;
     text-align: center;
-    left: 53px;
+    left: 45px;
     position: absolute;
   }
-  .pole {
+  .game-title__little {
     margin-left: 2px;
     margin-top: 40px;
   }
   
-  .pole1 {
+  .game-title__mini {
     margin-left: 2px;
     margin-top: 40px;
   }
   
-  .pole3 {
+  .game-title__average {
   margin-left: 2px;
   margin-top: 10px;
   }
 
-  .pole4 {
+  .game-title__big {
   margin-left: 2px;
   margin-top: 10px;
   }

@@ -53,7 +53,7 @@
    margin-left: 33px;
    width: 695px;
   }
-  .button2{
+  .button-start{
   background: rgb(0, 0, 0);
   text-align: center;
   border: 1px solid #202027;
@@ -73,7 +73,7 @@
   display: inline-block;
   }
 
-  .button2:hover{
+  .button-start:hover{
     background: white;
     text-align: center;
     border: 1px solid #202027;
@@ -176,7 +176,7 @@ padding-top: 41px;
   margin-left: 31px;
   }
 
-.about-game1{
+.about-game_title{
 color: rgb(255, 255, 255);
 width: 480px;
 height: 26px;
@@ -226,14 +226,14 @@ margin-left: 31px;
   padding-top: 72px;
 }
 
-.cart1{
+.cart-mini{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   height: 473px;
  }
  
- .cart4{
+ .cart-huge{
   background-color: #fff;
   width: 378px;
   padding-bottom: 1px;
@@ -241,7 +241,7 @@ margin-left: 31px;
   height: 551px;
  }
  
- .cart1:hover{
+ .cart-mini:hover{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -249,7 +249,7 @@ margin-left: 31px;
   transition: ls;
  }
 
- .cart4:hover{
+ .cart-huge:hover{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -341,14 +341,14 @@ margin-bottom: 20px;
         display: inherit;
       }
 
-      .play:hover{
+      .button-play:hover{
          background-color: #fff;
          color: #202027;
          font-family: Montserrat;
          border: 1px solid #202027;
       }
 
-      .play1{
+      .button-play1{
         width: 212px;
         height: 35px;
         padding: 16px 28px 16px 28px;
@@ -363,7 +363,7 @@ margin-bottom: 20px;
         text-align: center;
         display: inline-block;
       }
-      .play1:hover{
+      .button-play1:hover{
          background-color: #fff;
          color: #202027;
          font-family: Montserrat;
@@ -389,14 +389,14 @@ margin-bottom: 20px;
       height: 500px;
      }
 
-      .pole{
+      .game-title__little{
         margin-top: -418px;
         width: 399px;
         height: 228px;
         margin-left: 82px;
       }
 
-      .pole4{
+      .game-title__big{
         width: 515px;
         height: 344px;
         margin-top: -430px;
@@ -413,7 +413,7 @@ margin-bottom: 20px;
         color: #202027;       
       }
 
-      .title-game1{
+      .title-game__long{
         margin-bottom: 20px;
         font-family: Montserrat;
         font-size: 48px;
@@ -432,7 +432,7 @@ margin-bottom: 20px;
         margin-bottom: 33px;
       }
 
-      .describe1{
+      .describe-right{
         font-family: Montserrat;
         font-size: 24px;
         font-weight: 400;
