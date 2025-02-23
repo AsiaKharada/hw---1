@@ -212,7 +212,7 @@ a {
   margin-bottom: 20px;
 }
 
-.cart-box__game{
+.cart-box_game{
   margin-top: 40px;
   display: flex;
   gap: 32px;
@@ -277,7 +277,7 @@ a {
 }
 
 
-.cart-box__big {
+.cart-box_big {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -285,7 +285,7 @@ a {
   margin-top: 25px;
 }
 
-.cart-box__bigger {
+.cart-box_bigger {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -293,7 +293,7 @@ a {
   margin-top: 25px;
 }
 
-.cart-box__longer {
+.cart-box_longer {
   background-color: aliceblue;
   width: 1188px;
   height: 500px;
@@ -321,34 +321,34 @@ a {
   margin-left: 82px;
 }
 
-.game-title__mini {
+.game-title_mini {
   margin-top: -418px;
   width: 544px;
   height: 295px;
   margin-left: 664px;
 }
 
-.game-title__average {
+.game-title_average {
   margin-top: -418px;
   width: 493px;
   height: 344px;
   margin-left: 64px;
 }
 
-.game-title__big {
+.game-title_big {
   margin-top: -451px;
   width: 515px;
   height: 344px;
   margin-left: 636px;
 }
 
-.for-box__big{
+.for-box_big{
   height: 3500px;
   background-color: #202027;
   position: relative;
 }
 
-.game-title__little{
+.game-title_little{
   margin-top: -380px;
   margin-left: 58px;
   width: 478px;
@@ -364,7 +364,7 @@ a {
   text-align: left;
 }
 
-.title-game__long {
+.title-game_long {
   margin-bottom: 20px;
   font-family: Montserrat;
   font-size: 48px;
@@ -577,7 +577,7 @@ a {
   .for-box__big{
     height: 3700px;
   }
-  .cart-game__left {
+  .cart-game_left {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
@@ -591,7 +591,7 @@ a {
     border-radius: 28px;
     height: 560px;
   }
-  .cart-box__right {
+  .cart-box_right {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
@@ -640,7 +640,7 @@ a {
     margin-bottom: 10px;
     width: 284px;
   }
-  .title-game__long {
+  .title-game_long {
     color: #202027;
     font-family: Montserrat;
     font-size: 32px;
@@ -689,25 +689,25 @@ a {
     line-height: 141.69%;
     text-align: center;
   }
-  .game-title__little {
+  .game-title_little {
     margin-left: 40px;
     margin-top: 0;
     width: 284px;
     height: 182px;
   }
-  .game-title__mini {
+  .game-title_mini {
     margin-left: 40px;
     margin-top: 0px;
     width: 284px;
     height: 182px;
   }
-  .game-title__average {
+  .game-title_average {
     margin-left: 40px;
     margin-top: 0px;
     width: 284px;
     height: 182px;
   }
-  .game-title__big {
+  .game-title_big {
     margin-left: 40px;
     margin-top: 0px;
     width: 284px;
