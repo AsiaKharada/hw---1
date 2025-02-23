@@ -278,7 +278,7 @@ a {
 
 
 .cart-box_big {
-  background-color: aliceblue;
+  background-color: #fff;
   width: 1188px;
   height: 500px;
   border-radius: 52px;
@@ -286,7 +286,7 @@ a {
 }
 
 .cart-box_bigger {
-  background-color: aliceblue;
+  background-color: #fff;
   width: 1188px;
   height: 500px;
   border-radius: 52px;
@@ -294,7 +294,7 @@ a {
 }
 
 .cart-box_longer {
-  background-color: aliceblue;
+  background-color: #fff;
   width: 1188px;
   height: 500px;
   border-radius: 52px;
@@ -574,7 +574,7 @@ a {
   .for-box {
     display: none;
   }
-  .for-box__big{
+  .for-box_big{
     height: 3700px;
   }
   .cart-game_left {
