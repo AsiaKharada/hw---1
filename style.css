@@ -598,6 +598,11 @@ a {
     border-radius: 28px;
     height: 520px;
   }
+  
+  .cart-box_center{
+    position: relative
+    }
+  
   .cart-game4 {
     background-color: #fff;
     width: 342px;
