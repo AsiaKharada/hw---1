@@ -1,50 +1,52 @@
+// ФУНКЦИИ
+
 // Task 1
 
-function Min( a, b ){
-    alert( (a<b)? a : b );
-    }
-    
-    Min(4, 8);
-
+function minValye(a, b) {
+  if (a < b) {
+      return a;
+  } else {
+      return b
+  }
+}
+console.log(minValye(6, 10))
+console.log(minValye(5, 5))
 
 // Task 2
  
-function even_or_odd() {
-let n = Number (prompt (`введите число`));
-if (n % 2 === 0){
-    return console.log(`число четное`) ;
-} else { 
-    return console.log(`число не четное`) ;
+function checkingForParity(a) {
+  if (a % 2 === 0) {
+      return 'Число четное'
+  } else {
+      return 'Число нечетное'
+  }
 }
-};
+console.log(checkingForParity(5))
 
 // Task 3 
-//1) 
 
-let number = 5;
- function func(number) {
-  console.log(number ** 2);
+function numSquared(a){
+  b = a ** 2
+  return b
+  
 }
-
-//2)
-
-let num = 4;
-function square(num) {
-    return num * num;
-  }
+console.log(numSquared(5))
+console.log(b)
 
   // Task 4
   
-  prompt(`Сколько Вам лет?`);
-  function f(age){
-   if( age <= 0 ){
-    console.log(`Вы ввели неправильное значение`);
-   } if (age >= 0 && 12 ){
-    console.log(`Привет, друг!`);
-   } if(age >= 13){
-    console.log(`Добро пожаловать!`);
-   }
-  }
+  function whatAge(age){
+    if (age < 0) {
+        alert('Вы ввели неправильное значение')
+    } else if ((age === 0) || (age <= 12)){
+        alert('Привет, друг!')
+    } else if (age >= 13){
+        alert('Добро пожаловать!')
+    }else {
+        alert ('Где-то опечатка. Попробуйте заново')
+    }
+}
+(whatAge((prompt('Сколько тебе лет?'))))
 
   // Task 7
 
@@ -69,3 +71,28 @@ function square(num) {
   };
 
 // Task 5 
+
+function mult(a, b){
+  isNaN(a, b)
+  if (isNaN(a, b) === false) {
+      return a * b
+  }
+   else {
+      alert('Одно или оба значения не являются числом');
+  }
+}
+console.log(mult(6, 3))
+
+
+// Task 6
+
+function numCube(n) {
+  isNaN(n)
+  if (isNaN(n) === false) {
+
+      return n  + ' в кубе равняется ' + n**3 
+  } else {
+      return 'Переданный параметр не является числом'
+  }
+}
+console.log(numCube(prompt('Введи число, которое нужно возвести в куб')))
