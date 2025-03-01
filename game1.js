@@ -3,7 +3,7 @@ guessNumberButton.addEventListener(`click`, playGuessGame)
 
 
         function guessNumberButton() {
-            const answer = Math.floor((Math.random() * 100) + 1)
+            let  answer = Math.floor(Math.random() * 100);
             console.log(answer)
             userAnswer = parseInt(prompt('Угадай число то 1 до 100'))
             while (userAnswer !== answer) {

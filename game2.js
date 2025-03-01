@@ -38,13 +38,13 @@ function guessExamplesButton() {
             
         }
         else if (isNaN(parseInt(userAnswer))) {
-            userAnswer = prompt(userAnswer + " - Это не число, ответ должен быть числом!!!") 
+            userAnswer = prompt(userAnswer + " - Ответ должен быть числом! ") 
         }
         else if (userAnswer !== result){
             userAnswer = prompt(userAnswer + ` Не правильно, попробуй еще "${example}"`);
         }
     } 
-    alert('Молодец, ты решил правильно');   
+    alert('Правильно');   
     console.log('Игра завершена')
 }
 
