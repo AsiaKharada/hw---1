@@ -1,5 +1,5 @@
 const guessExamplesButton = document.getElementById(`guessExamplesButton`);
-guessExamplesButton.addEventListener(`click`, playGuessGame)
+guessExamplesButton.addEventListener(`click`, playGuessGame);
 
 
 function guessExamplesButton() {
