@@ -1,6 +1,8 @@
-<script>
+const guessExamplesButton = document.getElementById(`guessExamplesButton`);
+guessExamplesButton.addEventListener(`click`, playGuessGame)
 
-function examples() {
+
+function guessExamplesButton() {
     let a =  Math.floor((Math.random() * 100));
     let b =  Math.floor((Math.random() * 100) + 1);
     const rand = ['+','-','*','/'];
@@ -47,4 +49,3 @@ function examples() {
 }
 
 
-</script>
