@@ -1,8 +1,8 @@
-const guessExamplesButton = document.getElementById(`guessExamplesButton`);
-guessExamplesButton.addEventListener(`click`, playGuessGame);
+const mathExamplesButton = document.getElementById(`mathExamplesButton`);
+mathExamplesButton.addEventListener(`click`, playMathGame);
 
 
-function guessExamplesButton() {
+function playMathGame() {
     let a =  Math.floor((Math.random() * 100));
     let b =  Math.floor((Math.random() * 100) + 1);
     const rand = ['+','-','*','/'];
@@ -23,29 +23,30 @@ function guessExamplesButton() {
         }
         return result;
     }
-    console.log(getResult())
-    let example = `${a} ${rand[randomSing]} ${b}`
+    console.log(getResult());
+    let example = `${a} ${rand[randomSing]} ${b}`;
     let userAnswer = prompt(`Напишите ответ для задачи : ${example}`);
-    let result = parseInt(getResult())
+    let result = parseInt(getResult());
+
     while (userAnswer !== result){
         if (userAnswer === result) {
             break;
          
         }
         else if (userAnswer === null){
-            alert('Пользователь отменил игру')
+            alert('Пользователь отменил игру');
             return;
             
         }
         else if (isNaN(parseInt(userAnswer))) {
-            userAnswer = prompt(userAnswer + " - Ответ должен быть числом! ") 
+            userAnswer = prompt(userAnswer + ` - Ответ должен быть числом! `);
         }
         else if (userAnswer !== result){
             userAnswer = prompt(userAnswer + ` Не правильно, попробуй еще "${example}"`);
         }
     } 
     alert('Правильно');   
-    console.log('Игра завершена')
+    console.log('Игра завершена');
 }
 
 

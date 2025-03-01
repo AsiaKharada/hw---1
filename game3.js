@@ -1,9 +1,9 @@
-const guessFlipText = document.getElementById(`guessFlipText`);
-guessFlipText.addEventListener(`click`, playGuessGame)
+const flipTextButton = document.getElementById(`flipTextButton`);
+flipTextButton.addEventListener(`click`, playTextGame)
 
 
-function guessFlipText() {
+function playTextGame() {
     let userText = prompt('Введите текст, которую нужно перевернуть');
-    userText = userText.split("").reverse(" ").join("")
-    alert(userText)
+    userText = userText.split("").reverse(" ").join("");
+    alert(userText);
 }
