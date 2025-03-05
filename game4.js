@@ -5,9 +5,9 @@ quizGameButton.addEventListener(`click`, playQuizGame);
 function playQuizGame() {
     const quiz = [
         {
-            question: "Какого цвета трава летом?",
-            options: ["1. Красного", "2. Зеленого", "3. Синего"],
-            correctAnswer: 2 // номер правильного ответа
+            question: "Какого цвета небо?",
+            options: ["1. Синего", "2. Зеленого", "3. Красного"],
+            correctAnswer: 1 // номер правильного ответа
         },
         {
             question: "Сколько дней в неделе?",
@@ -15,12 +15,12 @@ function playQuizGame() {
             correctAnswer: 2  // номер правильного ответа
         },
         {
-            question: "Сколько будет ромашек у Аси, если 3 ромашки ей подарила мама и пять ромашек папа?",
-            options: ["1. Восемь ",  "2. Двадцать", "3. Десять"],
-            correctAnswer: 1  // номер правильного ответа
+            question: "Сколько пальцев у человека на одной руке?",
+            options: ["1. Четыре ",  "2. Пять", "3. Шесть"],
+            correctAnswer: 2  // номер правильного ответа
         }      
         ];
-        const userCorrectAnswer = ['Зеленого','Семь', "Восемь"]
+        const userCorrectAnswer = ['Синего','Семь', "Пять"]
            let i = 0; 
            let a = 0;
     while ( a < 3) {
