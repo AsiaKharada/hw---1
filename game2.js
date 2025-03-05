@@ -1,52 +1,71 @@
 const mathExamplesButton = document.getElementById(`mathExamplesButton`);
-mathExamplesButton.addEventListener(`click`, playMathGame);
+mathExamplesButton.addEventListener(`click`, playSimpleArithmetic);
 
+function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
-function playMathGame() {
-    let a =  Math.floor((Math.random() * 100));
-    let b =  Math.floor((Math.random() * 100) + 1);
-    const rand = ['+','-','*','/'];
-    let randomSing = Math.floor(Math.random() * rand.length) ;
-    function getResult() {
-        let result ;
-        if (randomSing === 0) {
-            result = a + b;
-            
-        } else if (randomSing === 1){
-            result = a - b;
-        }
-        else if (randomSing === 2){
-            result = a * b;
-        }
-        else  if (randomSing === 3){
-            result = Math.floor(a / b);
-        }
-        return result;
-    }
-    console.log(getResult());
-    let example = `${a} ${rand[randomSing]} ${b}`;
-    let userAnswer = prompt(`Напишите ответ для задачи : ${example}`);
-    let result = parseInt(getResult());
+function generateTask() {
+    const operation = ['+', '-', '*', '/'];
+    const operator = operation[getRandomNumber(0, operation.length - 1)];
+    let num1;
+    let num2;
+    let correctAnswer;
 
-    while (userAnswer !== result){
-        if (userAnswer === result) {
+    switch (operator) {
+        case '+':
+            num1 = getRandomNumber(1, 10);
+            num2 = getRandomNumber(1, 10);
+            correctAnswer = num1 + num2;
             break;
-         
-        }
-        else if (userAnswer === null){
-            alert('Пользователь отменил игру');
-            return;
-            
-        }
-        else if (isNaN(parseInt(userAnswer))) {
-            userAnswer = prompt(userAnswer + ` - Ответ должен быть числом! `);
-        }
-        else if (userAnswer !== result){
-            userAnswer = prompt(userAnswer + ` Не правильно, попробуй еще "${example}"`);
-        }
-    } 
-    alert('Правильно');   
-    console.log('Игра завершена');
+
+        case '-':
+            num1 = getRandomNumber(1, 20);
+            num2 = getRandomNumber(1, num1 - 1);
+            correctAnswer = num1 - num2;
+            break;
+
+        case '*':
+
+            num1 = getRandomNumber(1, 10);
+            num2 = getRandomNumber(1, 10);
+            correctAnswer = num1 * num2;
+            break;
+
+        case '/':
+            num2 = getRandomNumber(1, 10);
+            correctAnswer = getRandomNumber(1, 10);
+            num1 = correctAnswer * num2;
+            break;
+    }
+
+    return {
+        task: `${num1} ${operator} ${num2}`,
+        answer: correctAnswer
+    };
+}
+
+
+
+function playSimpleArithmetic() {
+    const currentTask = generateTask();
+    const userAnswer = prompt(`Решите задачу: ${currentTask.task}`);
+
+    if (userAnswer === null || userAnswer === '') {
+        alert('Игра отменена');
+        return;
+    }
+
+    let userNumber = parseInt(userAnswer);
+
+    if (isNaN(userNumber)) {
+        alert('Введите корректное число.');
+        return;
+    } else if (userNumber === currentTask.answer) {
+        alert('Верный ответ!');
+    } else {
+        alert(`Ошибка! Верный ответ ${currentTask.answer}`);
+    }
 }
 
 
