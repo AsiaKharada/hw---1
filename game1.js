@@ -2,30 +2,25 @@ const guessNumberButton = document.getElementById(`guessNumberButton`);
 guessNumberButton.addEventListener(`click`, playGuessGame);
 
 
-function playGuessGame() {
-    let answer = Math.floor(Math.random() * 100) + 1;
-
-    console.log(answer);
-
-    do {
-        let game = prompt('Угадайте число от 1 до 100');
-
-        if (game === null || game === '') {
-            alert('Игра отменена.');
-            return;
+        function playGuessGame() {
+            let  answer = Math.floor(Math.random() * 100);
+            console.log(answer);
+            let userAnswer = parseInt(prompt('Угадай число то 1 до 100'));
+            while (userAnswer !== answer) {
+                if (isNaN(userAnswer)) {
+                    alert('Это не число, попробуйте снова!');
+                } else if (userAnswer > answer) {
+                    userAnswer = parseInt(prompt('Меньше ' + userAnswer));
+                } else if (userAnswer < answer) {
+                    userAnswer = parseInt(prompt('Больше ' + userAnswer));
+                }
+        
+                if (userAnswer === null) {
+                    alert('Пользователь отменил игру');
+                    return;
+                }
+            }
+        
+            alert('Правильно!');
+            console.log('Игра завершена');
         }
-        userGuess = parseInt(game);
-
-        if (isNaN(userGuess)) {
-            alert('Введите корректное число.');
-            continue;
-        }
-        if (userGuess < randomNumber) {
-            alert('Загаданное число больше.');
-        } else if (userGuess > randomNumber) {
-            alert('Загаданное число меньше.');
-
-        }
-    } while (userGuess !== randomNumber);
-    alert('Вы угадали!');
-}
