@@ -38,7 +38,18 @@ const people = [
     console.log(filter(human, isMale));
 
     // Task 3
+const interval = 3000; // 3 секунды
+const duration = 30000; // 30 секунд
+let elapsed = 0;
 
+const timer = setInterval(() => {
+    console.log(new Date().toLocaleString());
+    elapsed += interval;
+    if (elapsed >= duration) {
+        clearInterval(timer);
+        console.log("30 секунд прошло");
+    }
+}, interval);
 
 
     // Task 4
