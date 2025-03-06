@@ -29,17 +29,17 @@ cd = c.join(' ')
 console.log(cd)
 
 // Task 4
+let rows = 3; 
+let cols = 3;
+let matrix = [];
 
-const d = [];
-
-for (let i = 0; i < 3; i++){
-    const d2 = [];
-    for (let i = 0; i < 3;i++){
-        d2.push(1);
+for (let i = 0; i < rows ; i++){
+    matrix = [i];
+    for (let j = 0; j < cols ; j++){
+    matrix[i][j] = i * cols + j+ 1;
     }
-    b.push(d2)
 }
-console.log(d)
+console.log(matrix);
 
 // Task 5
 
@@ -88,10 +88,15 @@ console.log(newAr)
 
 // Task 10
 
-const arrq = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-for (let i = 0; i < arrq.length - 1; i++){
-    console.log(i + (i+1))
+function filterNegativeNumbers(arr) {
+    return arr.filter((num) => num < 0);
 }
+
+const numbers = [5, -3, 8, -1, 0, -7, 10, -2];
+const negativeNumbers = filterNegativeNumbers(numbers);
+
+console.log("Исходный массив:", numbers);
+console.log("Массив с отрицательными значениями:", negativeNumbers);
 
 // Task 11
 
@@ -113,29 +118,29 @@ console.log (functions(['sdcxsc', 'xaxa']))
 
 // Task 13
 
-function negativeNumbers(a) {
-    return a.filter(item => item < 2);
+const array = Array.from({ length: 10 }, () => Math.floor(Math.random() * 10) + 1);
+console.log("Исходный массив:", array);
+
+for (let i = 0; i < array.length - 1; i++) {
+    const currentElement = array[i];
+    const nextElement = array[i + 1];
+    const sumElements = currentElement + nextElement;
+    console.log(`Сумма элементов ${currentElement} и ${nextElement}: ${sumElements}`);
 }
-console.log (negativeNumbers([1, 4, 3, -1 , -2]))
 
 // Task 14
 
-function randomNam() {
-    return Math.floor(Math.random() * 10);
+const originalArray = Array.from({ length: 10 }, () => Math.floor(Math.random() * 11));
+const evenArray = [];
+
+for (let i = 0; i < originalArray.length; i++) {
+    if (originalArray[i] % 2 === 0) { 
+        evenArray.push(originalArray[i]); 
+    }
 }
-const arrw =[]
-console.log(arrw)
-for (let i = 0; i < 10;i++){
-    arrw.push(randomNam())
-}
-const newNewArr = []
-for (let i = 0; i < newNewArr.length; i++) {
-    if (arrw[i] % 2 === 0){
-        newNewArr.push(arrw[i])
-    } 
-    
-}
-console.log (newNewArr) 
+
+console.log("Исходный массив:", originalArray);
+console.log("Массив с четными значениями:", evenArray);
 
 
 
