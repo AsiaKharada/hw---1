@@ -142,11 +142,11 @@ console.log (newNewArr)
 // Task 15
 
 function randomNumb() {
-    return Math.floor(Math.random() * 10);
+    return Math.floor(Math.random() * 6);
 }
 const arrwq =[]
 console.log(arrwq)
-for (let i = 0; i < 10;i++){
+for (let i = 0; i < 6;i++){
     arrwq.push(randomNam())
 }
 console.log(arrwq.reduce((a,b) => a + b) / arrwq.length);
