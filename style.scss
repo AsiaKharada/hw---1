@@ -23,7 +23,7 @@ a {
 
 }
 
-.head-block {
+.header {
   background-color: rgb(225, 255, 143);
   height: 900px;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@ a {
 
 }
 
-.heading {
+.header__title {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 64px;
@@ -43,7 +43,7 @@ a {
   padding-top: 145px;
 }
 
-.subtitle {
+.header__subtitle {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 24px;
@@ -52,7 +52,7 @@ a {
   margin-top: 24px;
 }
 
-.button-start {
+.header__button {
   background: rgb(0, 0, 0);
   text-align: center;
   border: 1px solid #000;
@@ -71,7 +71,7 @@ a {
   align-items: center;
 }
 
-.button-start:hover {
+.header__button:hover {
   background: rgb(255, 253, 253);
   color: rgb(2, 2, 2);
   font-family: Montserrat;
@@ -104,10 +104,10 @@ a {
   width: 43px;
 }
 
-.for-box {
+.games-section {
   background-color: rgb(32, 32, 39);
   position: relative;
-  height: 1500px;
+  padding-bottom: 36px;
   overflow: hidden;
 }
 
@@ -121,7 +121,7 @@ a {
   padding-top: 94px;
 }
 
-.about-game_title {
+.games-section__description {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 24px;
@@ -131,7 +131,7 @@ a {
   margin-top: 24px;
 }
 
-.cart-mini {
+.game-card--mini {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -139,14 +139,14 @@ a {
   position: relative;
 }
 
-.cart-avarage {
+.game-card--averagee {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   height: 498px;
 }
 
-.cart-big {
+.game-card--big {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -154,7 +154,7 @@ a {
   margin-top: 43px;
 }
 
-.cart-huge {
+.game-card--huge {
   background-color: #fff;
   width: 378px;
   margin-top: 36px;
@@ -163,7 +163,7 @@ a {
 }
 
 
-.cart-mini:hover {
+.game-card--mini:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -171,7 +171,7 @@ a {
   transition: ls;
 }
 
-.cart-avarage:hover {
+.game-card--averagee:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -179,7 +179,7 @@ a {
   transition: ls;
 }
 
-.cart-big:hover {
+.game-card--big:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -187,7 +187,7 @@ a {
   transition: ls;
 }
 
-.cart-huge:hover {
+.game-card--huge:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -195,7 +195,7 @@ a {
   transition: ls;
 }
 
-.number-game {
+.game-card__number {
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
   color: rgb(32, 32, 39);
@@ -210,7 +210,7 @@ a {
   text-align: center;
 }
 
-.name-game {
+.game-card__name {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 32px;
@@ -223,7 +223,7 @@ a {
   margin-bottom: 20px;
 }
 
-.cart-box_game {
+.games-section__grid {
   margin-top: 70px;
   display: flex;
   gap: 32px;

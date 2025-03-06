@@ -20,7 +20,7 @@ a {
   padding-right: calc(50% - 600px);
 }
 
-.head-block {
+.header {
   background-color: rgb(225, 255, 143);
   height: 900px;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ a {
   overflow: hidden;
 }
 
-.heading {
+.header__title {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 64px;
@@ -39,17 +39,17 @@ a {
   padding-top: 145px;
 }
 
-.subtitle {
+.header__subtitle {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   margin-top: 24px;
-  width: 650px;
+  width: 685px;
 }
 
-.button-start {
+.header__button {
   background: rgb(0, 0, 0);
   text-align: center;
   border: 1px solid #000;
@@ -68,7 +68,7 @@ a {
   align-items: center;
 }
 
-.button-start:hover {
+.header__button:hover {
   background: rgb(255, 253, 253);
   color: rgb(2, 2, 2);
   font-family: Montserrat;
@@ -100,14 +100,14 @@ a {
   width: 43px;
 }
 
-.for-box {
+.games-section {
   background-color: rgb(32, 32, 39);
   position: relative;
-  height: 1500px;
+  padding-bottom: 36px;
   overflow: hidden;
 }
 
-.about-game {
+.games-section__title {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 64px;
@@ -117,7 +117,7 @@ a {
   padding-top: 94px;
 }
 
-.about-game_title {
+.games-section__description {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 24px;
@@ -127,7 +127,7 @@ a {
   margin-top: 24px;
 }
 
-.cart-mini {
+.game-card--mini {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -135,14 +135,14 @@ a {
   position: relative;
 }
 
-.cart-avarage {
+.game-card--average{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   height: 498px;
 }
 
-.cart-big {
+.game-card--big {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -150,7 +150,7 @@ a {
   margin-top: 43px;
 }
 
-.cart-huge {
+.game-card--huge {
   background-color: #fff;
   width: 378px;
   margin-top: 36px;
@@ -158,7 +158,7 @@ a {
   height: 551px;
 }
 
-.cart-mini:hover {
+.game-card--mini:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -166,7 +166,7 @@ a {
   transition: ls;
 }
 
-.cart-avarage:hover {
+.game-card--average:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -174,7 +174,7 @@ a {
   transition: ls;
 }
 
-.cart-big:hover {
+.game-card--big:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -182,7 +182,7 @@ a {
   transition: ls;
 }
 
-.cart-huge:hover {
+.game-card--huge:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -190,7 +190,7 @@ a {
   transition: ls;
 }
 
-.number-game {
+.game-card__number {
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
   color: rgb(32, 32, 39);
@@ -205,7 +205,7 @@ a {
   text-align: center;
 }
 
-.name-game {
+.game-card__name {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 32px;
@@ -218,7 +218,7 @@ a {
   margin-bottom: 20px;
 }
 
-.cart-box_game {
+.games-section__grid {
   margin-top: 70px;
   display: flex;
   gap: 32px;
@@ -412,13 +412,13 @@ a {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .head-block {
+  .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     block-size: 700px;
   }
-  .button-start {
+  .header__button {
     margin-top: 35px;
     width: 285px;
     height: 55px;
@@ -439,14 +439,14 @@ a {
     text-align: left;
     padding-top: 50px;
   }
-  .heading {
+  .header__title {
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 40px;
     line-height: 49px;
     text-align: center;
   }
-  .subtitle {
+  .header__subtitle {
     color: rgb(32, 32, 39);
     max-width: 335px;
     font-size: 16px;
@@ -454,10 +454,10 @@ a {
     line-height: 20px;
     text-align: center;
   }
-  .subtitle br {
+  .header__subtitle br {
     display: none;
   }
-  .head-block {
+  .header {
     background-image: url(img/Vector1.svg);
     background-color: rgb(225, 255, 143);
     background-repeat: no-repeat;
@@ -491,10 +491,10 @@ a {
     margin-left: 280px;
     margin-top: 150px;
   }
-  .for-box {
+  .games-section {
     display: none;
   }
-  .for-box1 {
+  .games-section1 {
     height: 3820px;
   }
   .cart-box__big {
