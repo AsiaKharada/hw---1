@@ -380,7 +380,7 @@ a {
   height: 150px;
 }
 
-.polet {
+.footer__text {
   color: rgb(0, 0, 0);
   font-family: Montserrat;
   font-size: 24px;
@@ -680,7 +680,7 @@ a {
     background-color: rgb(153, 204, 14);
     height: 100px;
   }
-  .polet {
+  .footer__text {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
