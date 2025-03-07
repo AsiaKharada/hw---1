@@ -147,13 +147,13 @@ console.log("Массив с четными значениями:", evenArray);
 
 // Task 15
 
-function randomNumb() {
+function randomNum() {
     return Math.floor(Math.random() * 6);
 }
 const arrwq =[]
 console.log(arrwq)
 for (let i = 0; i < 6;i++){
-    arrwq.push(randomNam())
+    arrwq.push(randomNum())
 }
 console.log(arrwq.reduce((a,b) => a + b) / arrwq.length);
 
