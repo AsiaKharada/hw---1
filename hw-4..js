@@ -1,4 +1,4 @@
-// МФССИВЫ
+// МАССИВЫ
 
 // Task 1
 
@@ -29,17 +29,18 @@ cd = c.join(' ')
 console.log(cd)
 
 // Task 4
-let rows = 3; 
-let cols = 3;
-let matrix = [];
+const multiArray = [];
 
-for (let i = 0; i < rows ; i++){
-    matrix = [i];
-    for (let j = 0; j < cols ; j++){
-    matrix[i][j] = i * cols + j+ 1;
+for (let i = 0; i < 3; i++) {
+    const row = [];
+    
+    for (let j = 0; j < 3; j++) {
+        row.push(1);
     }
+    multiArray.push(row);
 }
-console.log(matrix);
+
+console.log(multiArray);
 
 // Task 5
 
