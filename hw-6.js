@@ -7,7 +7,8 @@ const people = [
     { name: 'Олег', age: 7 },
     { name: 'Оксана', age: 47 }
  ];
- console.log(people.sort(age));
+const sortedPeople = people.sort((a, b) => a.age - b.age);
+ console.log(people.sort(sortedPeople));
 
  // Task 2
  function isPositive(num) {
