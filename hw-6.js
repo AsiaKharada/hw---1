@@ -1,7 +1,6 @@
 // CALLBACK, SETTIMEOUT, SETINTERVAL
 
-// tASK 1
-
+// Task 1
 const people = [
     { name: 'Глеб', age: 29 },
     { name: 'Анна', age: 17 },
@@ -9,7 +8,7 @@ const people = [
     { name: 'Оксана', age: 47 }
  ];
 const sortedPeople = people.sort((a, b) => a.age - b.age);
- console.log(people.sort(sortedPeople));
+ console.log(sortedPeople);
 
  // Task 2
  function isPositive(num) {
