@@ -1,6 +1,6 @@
 // CALLBACK, SETTIMEOUT, SETINTERVAL
 
-// tASK 1
+// Task 1
 const people = [
     { name: 'Глеб', age: 29 },
     { name: 'Анна', age: 17 },
