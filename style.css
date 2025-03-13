@@ -100,6 +100,34 @@ a {
   width: 43px;
 }
 
+.scroll-container {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: rgb(166, 215, 33);
+  color: #000000;
+  font-size: 28px;
+  position: absolute;
+  line-height: 73px;
+  left: 0px;
+  top: 678px;
+}
+
+.scroll-text {
+  gap: 51px;
+  display: flex;
+  animation: scroll 37s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
 .games-section {
   background-color: rgb(32, 32, 39);
   position: relative;
@@ -425,6 +453,11 @@ a {
     font-size: 16px;
     font-weight: 600;
   }
+
+  .scroll-container{
+    display: none;
+  }
+
   .cart-game {
     display: flex;
     flex-direction: column;
@@ -609,6 +642,8 @@ a {
     padding-top: 46px;
     overflow: hidden;
   }
+
+
   .mini-games__box {
     display: flex;
     gap: 29px;
