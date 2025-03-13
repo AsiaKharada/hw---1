@@ -453,6 +453,11 @@ a {
     font-size: 16px;
     font-weight: 600;
   }
+
+  .scroll-container{
+    display: none;
+  }
+
   .cart-game {
     display: flex;
     flex-direction: column;
