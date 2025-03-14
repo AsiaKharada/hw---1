@@ -6,7 +6,10 @@
   }
 
 .scroll-container{
-  display: none;
+ font-size: 22px;
+ top: 655px;
+ line-height: 46px;
+ height: 44px;
 }
 
   .header {
@@ -137,46 +140,6 @@
     margin-top: 36px;
     border-radius: 28px;
     height: 605px;
-  }
-
-  .cart-game2 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 28px;
-    height: 560px;
-  }
-
-  .cart-game3 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 28px;
-    height: 520px;
-  }
-
-  .cart-game4 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 28px;
-    height: 530px;
-  }
-
-  .cart-game5 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 28px;
-    height: 570px;
-  }
-
-  .cart-game6 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 28px;
-    height: 600px;
   }
 
   .game-img1 {
@@ -375,14 +338,14 @@
   .star-img3 {
     position: absolute;
     right: 82px;
-    bottom: 49px;
+    bottom: 108px;
     width: 21px;
   }
 
   .star-img4 {
     position: absolute;
     right: 28px;
-    bottom: -2px;
+    bottom: 55px;
     width: 46px;
   }
 
