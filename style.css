@@ -121,7 +121,7 @@ a {
 
 @keyframes scroll {
   0% {
-      transform: translateX(100%);
+      transform: translateX(0%);
   }
   100% {
       transform: translateX(-100%);
@@ -452,10 +452,6 @@ a {
     height: 55px;
     font-size: 16px;
     font-weight: 600;
-  }
-
-  .scroll-container{
-    display: none;
   }
 
   .cart-game {
