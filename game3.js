@@ -13,3 +13,4 @@ function playTextGame() {
    userText = userText.split("").reverse("").join("");
     alert(userText);
 }
+
