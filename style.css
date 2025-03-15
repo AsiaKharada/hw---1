@@ -104,13 +104,15 @@ a {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  background-color: rgb(166, 215, 33);
-  color: #000000;
-  font-size: 28px;
+  background-color: #BCEC30;
+  color: #202027;
+  font-size: 30px;
   position: absolute;
-  line-height: 73px;
+  line-height: 77px;
   left: 0px;
   top: 678px;
+  font-family: Montserrat;
+  font-weight: 700;
 }
 
 .scroll-text {
@@ -168,6 +170,7 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 498px;
+  position: relative;
 }
 
 .game-card--big {
