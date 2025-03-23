@@ -104,13 +104,15 @@ a {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  background-color: rgb(166, 215, 33);
-  color: #000000;
-  font-size: 28px;
+  background-color: #BCEC30;
+  color: #202027;
+  font-size: 30px;
   position: absolute;
-  line-height: 73px;
+  line-height: 77px;
   left: 0px;
   top: 678px;
+  font-family: Montserrat;
+  font-weight: 700;
 }
 
 .scroll-text {
@@ -168,6 +170,7 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 498px;
+  position: relative;
 }
 
 .game-card--big {
@@ -547,41 +550,7 @@ a {
     border-radius: 28px;
     height: 605px;
   }
-  .cart-game2 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 28px;
-    height: 560px;
-  }
-  .cart-game3 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 28px;
-    height: 520px;
-  }
-  .cart-game4 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 28px;
-    height: 530px;
-  }
-  .cart-game5 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 28px;
-    height: 570px;
-  }
-  .cart-game6 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 28px;
-    height: 600px;
-  }
+
   .game-img1 {
     margin-left: -1px;
     width: 343px;
@@ -745,13 +714,21 @@ a {
   .star-img3 {
     position: absolute;
     right: 82px;
-    bottom: 49px;
+    bottom: 106px;
     width: 21px;
   }
   .star-img4 {
     position: absolute;
     right: 28px;
-    bottom: -2px;
+    bottom: 64px;
     width: 46px;
   }
+
+.scroll-container{
+  line-height: 63px;
+  top: 641px;
+  height: 58px;
+  font-size: 23px;
+}
+
 }/*# sourceMappingURL=style.css.map */
